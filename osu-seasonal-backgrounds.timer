@@ -1,0 +1,9 @@
+[Unit]
+Description=Downloads osu backgrounds every 3 months.
+
+[Timer]
+OnCalendar=quarterly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

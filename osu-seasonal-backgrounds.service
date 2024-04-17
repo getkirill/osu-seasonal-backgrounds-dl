@@ -1,0 +1,5 @@
+[Unit]
+Description=Downloads osu backgrounds.
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/osu-slideshow.py /path/to/pictures/ --remove-old
